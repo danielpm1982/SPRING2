@@ -1,0 +1,36 @@
+body{
+	font-family: sans-serif;
+	text-align: center;
+	background-color: black;
+	color: blanchedalmond;
+}
+form {
+	margin-top: 5em;
+	font-size: 2em;	
+}
+input[type="text"]{
+	font-family: monospace;
+	font-size: 1.1em;
+	padding: 0.4em;
+	width: 15em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+div#result1{
+	font-size: 1.7em;
+	font-family: monospace;
+}
+
+div#result2{
+	font-size: 1.3em;
+	font-family: monospace;
+}
+div#resultBody{
+	margin-top: 5em;
+}
+.errors{
+	font-family: monospace;
+	color: red;
+	background-color: yellow;
+}
