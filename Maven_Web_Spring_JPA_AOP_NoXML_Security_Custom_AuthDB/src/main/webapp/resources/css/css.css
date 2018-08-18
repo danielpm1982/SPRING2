@@ -1,0 +1,101 @@
+body{
+	font-family: sans-serif;
+	text-align: center;
+	background-color: black;
+	color: blanchedalmond;
+}
+form {
+	margin-top: 0em;
+	font-size: 2em;	
+}
+form.logout {
+	margin-top: 1em;
+	font-size: 2em;	
+}
+input[type="text"], input[type="password"]{
+	font-family: monospace;
+	font-size: 1.1em;
+	padding: 0.4em;
+	width: 15em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+input[type="submit"]{
+	font-family: monospace;
+	font-size: 1.1em;
+	font-weight: bolder;
+	padding: 0.4em;
+	width: 7em;
+	margin-top: 1.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+input[type="submit"].logout{
+	margin-top: 0.5em;
+}
+div#result1{
+	font-size: 1.7em;
+	font-family: monospace;
+}
+
+div#result2{
+	font-size: 1.3em;
+	font-family: monospace;
+}
+div#resultBody{
+	margin-top: 3em;
+}
+.errors{
+	font-family: monospace;
+	color: red;
+	background-color: yellow;
+	line-height: 3;
+}
+div.welcome{
+	font-family: monospace;
+	font-size: 2em;
+	width: 30em;
+	margin: auto;
+	margin-top: 2em;
+	border: thin white dashed;
+	padding: 0.5em;
+	margin-bottom: 2em;
+}
+div#roleConditionedLinks{
+	width: 27em;
+	margin: auto;
+	line-height: 1.5;
+}
+div#roleConditionedLinks a:link{
+	color: green;
+}
+div#roleConditionedLinks a:visited{
+	color: teal;
+}
+div#roleConditionedLinks a:hover{
+	color: lime;
+}
+div#roleConditionedLinks a:active{
+	color: red;
+}
+img{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 10%;
+	
+}
+img.img2{
+	margin-top: 0em;
+	margin-bottom: 2em;
+	width: 10%;
+}
+img.img3{
+	position: absolute;
+	width: 10%;
+	left: 10em;
+}
+img.img4{
+	position: absolute;
+	width: 10%;
+	right: 10em;
+}
