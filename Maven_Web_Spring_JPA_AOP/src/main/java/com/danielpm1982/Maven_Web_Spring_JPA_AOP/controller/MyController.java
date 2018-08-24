@@ -57,5 +57,26 @@ Spring form as the modelAttribute to have its properties set (bound). Actually, 
 the 'id' by Hibernate when the bean object is saved, and the other - 'dateTime' - at the bean Constructor.
 --> This project can evolve with new DAO features, new Aspect advices and pointCuts, new custom or customized 
 Spring validation rules for new Entities, as well as with the addition of Spring Security and RESTful services. 
-This project intends to be only a basic template for that.  
+This project intends to be only a basic template for that.
+--> Unfortunately, at Eclipse Photon, at least, each time a Maven Update is done, Eclipse simply removes 
+Java Build Path Entries, including Maven Dependencies, from the Deployment Assembly, resulting in a Classpath 
+Dependency Validator Message telling that 'Classpath entry org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER will not 
+be exported or published. Runtime ClassNotFoundExceptions may result." And, without Maven Dependencies, the 
+project doesn't run. So, after each Maven Update, check if the error occurs, and, if it does, add the Java Build 
+Path Entries again at the Deployment Assembly.
+--> if a Project Facets Dynamic Web Module change is needed, and if the change is blocked at the IDE, 
+the change can be done at the .xml file: 
+eclipse-workspace/ProjectDirectory/.settings/org.eclipse.wst.common.project.facet.core.xml . 
+--> with the new JDKs, JAXB jars have been turned unavailable or not added to the buildPath of the projects
+by default. Better than adding modules through VM arguments, which will also be a deprecated solution with JAVA 11, 
+a final solution for all JAVA versions is to simply add the dependencies for JAXB at the POM file, whose artifactId are: 
+<artifactId>jaxb-api</artifactId>
+<artifactId>jaxb-core</artifactId>
+<artifactId>jaxb-impl</artifactId>
+<artifactId>activation</artifactId> .
+This solves the error for classNotFound regarding JAXB classes.
+--> also take care with the .xml headers, for avoiding project facets incompatibilities and the xml not being recognized 
+(.xml missing errors). 
+--> some other errors, due to missing or unregistered jars, can be solved by setting the Apache Tomcat as a targeted
+runtime. And choosing the correct projects facets, for instance, by choosing java 10 when using java 10 jdk or jre.
 */

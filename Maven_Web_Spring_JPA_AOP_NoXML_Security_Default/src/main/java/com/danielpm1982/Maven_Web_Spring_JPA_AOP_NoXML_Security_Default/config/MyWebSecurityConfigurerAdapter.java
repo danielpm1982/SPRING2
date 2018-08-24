@@ -14,9 +14,9 @@ public class MyWebSecurityConfigurerAdapter extends WebSecurityConfigurerAdapter
 		@SuppressWarnings("deprecation")
 		UserBuilder users = User.withDefaultPasswordEncoder();
 		auth.inMemoryAuthentication()
-			.withUser(users.username("user1").password("user1password").roles("ROLE1"))
-			.withUser(users.username("user2").password("user2password").roles("ROLE2"))
-			.withUser(users.username("user3").password("user3password").roles("ROLE3"));
+			.withUser(users.username("user1").password("123").roles("ROLE1"))
+			.withUser(users.username("user2").password("123").roles("ROLE2"))
+			.withUser(users.username("user3").password("123").roles("ROLE3"));
 	}
 }
 
