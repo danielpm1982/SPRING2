@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>serv</servlet-name>
+  	<servlet-class>com.danielpm1982.Maven_Web_Servlet_JSP_JSTL_EL.controller.Serv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>serv</servlet-name>
+  	<url-pattern>/serv.do</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  	<welcome-file>welcome.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
