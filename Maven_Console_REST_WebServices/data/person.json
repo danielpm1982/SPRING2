@@ -1,0 +1,15 @@
+{
+	"id": 1,
+	"userName": "danielpm1982",
+	"password": "123456",
+	"active": true,
+	"contact": ["555-5555", "888-8888"],
+	"address":
+		{
+			"street": "streetABC",
+			"number": "999999",
+			"city": "São Paulo",
+			"state": "SP",
+			"country": "Brasil"
+		}
+}
