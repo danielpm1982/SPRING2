@@ -1,0 +1,71 @@
+body{
+	text-align: center;
+	background-color: black;
+	color: blanchedalmond;
+	font-family: monospace;
+	font-size: 1.5em;
+}
+div#resultBody{
+	font-family: monospace;
+	width: 60%;
+	margin: auto;
+	margin-top: 2em;
+	padding: 0.5em;
+	margin-bottom: 2em;
+}
+div.welcome{
+	font-family: monospace;
+	width: 60%;
+	margin: auto;
+	margin-top: 4em;
+	border: thin white dashed;
+	padding: 2em;
+	padding-bottom: 4em;
+}
+a.a1{
+	width: 27em;
+	margin: auto;
+	line-height: 1.5;
+	font-size: 1em;
+	font-family: sans-serif;
+	position: relative;
+	top: 1em;
+	
+}
+a:link{
+	color: green;
+}
+a:visited{
+	color: teal;
+}
+a:hover{
+	color: lime;
+}
+a:active{
+	color: red;
+}
+img{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 10%;
+}
+div.table{
+	display: table;
+	border-collapse: separate;
+	border-spacing: 0.2em;
+	margin: auto;
+	background-color: navy;
+}
+div.tableHeader, div.cell{
+	display: table-cell;
+	padding: 0.5em;
+	border-color: green;
+	border-style: solid;
+	font-weight: bolder;
+}
+div.row{
+	display: table-row;
+}
+div.cell{
+	font-weight: normal; 
+}
