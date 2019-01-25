@@ -1,0 +1,24 @@
+body{
+	background-color: black;
+}
+p{
+	color: blue;
+	text-align: center;
+	font-family: monospace;
+	background-color: white;
+}
+p.bigP{
+	font-size: 3em;
+}
+p.mediumP{
+	font-size: 2em;
+}
+div.mainText{
+	width: 60%;
+	margin: auto;
+	border: dashed 0.15em white;
+	padding: 2em;
+	padding-left: 4em;
+	padding-right: 4em;
+	margin-top: 4em;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Thymeleaf SpringBoot Maven App</title>
+		<link rel="stylesheet" th:href="@{/css/css.css}" />
+	</head>
+	<body>
+		<div class="mainText">
+			<p th:text="'Welcome to this Thymeleaf SpringBoot Maven app'" class="bigP" />
+			<p th:text="'LocalDateTime on the server is: ' + ${localDateTime}" class="mediumP" />
+		</div>
+	</body>
+</html>
