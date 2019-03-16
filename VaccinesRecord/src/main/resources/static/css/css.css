@@ -1,0 +1,240 @@
+body{
+	font-family: sans-serif;
+	text-align: center;
+	background-color: black;
+	color: blanchedalmond;
+	font-size: 0.8em;
+	margin-bottom: 4em;
+}
+form {
+	margin-top: 0em;
+	font-size: 2em;	
+}
+form.logout {
+	margin-top: 0em;
+	font-size: 2em;	
+}
+form#register, form#uploadPhoto {
+	font-size: 2em;
+	border: thin white dashed;
+	width: 50%;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	padding: 1em;
+	padding-top: 0.5em;
+}
+form#uploadPhotoVaccine {
+	font-size: 2em;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 1em;
+}
+form#uploadPhoto {
+	text-align: center;
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="number"], input[type="file"], input[type="time"]{
+	font-family: monospace;
+	padding: 0.4em;
+	width: 15em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 25px;
+}
+input[type="submit"], input[type="button"]{
+	font-family: monospace;
+	font-weight: bolder;
+	padding: 0.4em;
+	width: 7em;
+	margin-top: 1.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 25px;
+}
+input[type="submit"].logout, input[type="submit"].login, input[type="submit"].return{
+	margin-top: 0.5em;
+}
+select{
+	margin-top: 0.5em;
+	margin-left: 1.3em;
+	height: 6.4em;
+	font-size: 0.7em;
+	padding: 0.5em;
+}
+select option{
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+label{
+	position: relative;
+	top: 0.5em;
+}
+div.mainText{
+	width: 35%;
+	text-align: center;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 1.5em;
+}
+div.body{
+	width: 100%;
+	margin: auto;
+	border: solid 0.15em white;
+	padding: 1em;
+}
+div#result1{
+	font-size: 1.7em;
+	font-family: monospace;
+}
+
+div#result2{
+	font-size: 1.3em;
+	font-family: monospace;
+}
+div#resultBody{
+	margin: auto;
+	margin-top: 3em;
+	width: 60%;
+}
+div.welcome{
+	font-family: monospace;
+	font-size: 2.3em;
+	width: 60%;
+	margin: auto;
+	margin-top: 2em;
+	border: thin saddlebrown dashed;
+	padding: 0.5em;
+	padding-left: 3%;
+	padding-right:3%;
+	margin-bottom: 2em;
+}
+div.misFormDiv{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+div.tpsFormItem, div.misFormItem, div.wsFormItem, div.resourceFormItem{
+	width: 66%;
+	margin: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	font-size: 1.3em;
+}
+div.misFormItem{
+	font-size: 1.2em;
+}
+div.link{
+	width: 27em;
+	margin: auto;
+	line-height: 1.5;
+	margin-top: 2em;
+	font-size: 30px;
+}
+a:link{
+	color: green;
+}
+a:visited{
+	color: teal;
+}
+a:hover{
+	color: lime;
+}
+a:active{
+	color: red;
+}
+img.img5{
+	position: absolute;
+	width: 15%;
+	right: 12%;
+	top: 0.5%;
+}
+img.img6{
+	margin-top: 0.1em;
+	width: 5%;
+	position: relative;
+	top: -0.2em;
+	left: -0.7em;
+}
+img.img7{
+	width: 60%;
+}
+img.img8{
+	width: 20%;
+	margin: 1em;
+}
+img.img9{
+	height: 239.4px;
+	width: 180px;
+/* 	border: thin dashed white; */
+	margin: auto;
+	margin-top: 1em;
+}
+img.img10{
+	height: 225px;
+	width: 400px;
+/* 	border: thin dashed white; */
+	margin: auto;
+	margin-top: 1em;
+}
+img#userPhoto{
+	margin: 2em;
+}
+div#addNewPatient p{
+	font-size: 2em;
+	margin-bottom: 0em;
+}
+errors{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+h1.errors{
+	font-family: monospace;
+	font-size: 3em;
+	color: yellow;
+	background-color: red;
+	margin-bottom: 1.5em;
+	width: 100%;
+}
+h2.tpsLinkItem, h2.wsLinkItem, h2.resourceLinkItem{
+	color: green;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+h2.tpsInputItem, h2.wsInputItem{
+	color: green;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+h2.wsInputItem{
+	margin-top: -1em;
+	margin-bottom: -2em;
+}
+h6.registrationForm{
+	margin-top: -0.5em;
+}
+.errors{
+	font-family: monospace;
+	color: red;
+	background-color: yellow;
+	line-height: 1;
+	width: 43.25%;
+	margin: auto;
+	margin-bottom: 0.5em;
+	display: block;
+	position: relative;
+	top: 1.5em;
+	font-size: 25px;
+	font-weight: normal;
+}
+hr{
+	margin: 3em;
+}
+p.resource{
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top: 3em;
+}
+p.misP{
+	margin-top: 2em;
+	margin-bottom: 0em;
+}
