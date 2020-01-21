@@ -14,7 +14,7 @@
     <tld.version>1.1.2</tld.version>
     <javax.servlet.jstl.version>1.2</javax.servlet.jstl.version>
     <javax.validation.version>2.0.1.Final</javax.validation.version>
-   	<spring.version>5.0.8.RELEASE</spring.version>
+   	<spring.version>5.1.0.RELEASE</spring.version>
    	<spring-security.version>5.0.7.RELEASE</spring-security.version>
    	<aspectJWeaver.version>1.9.1</aspectJWeaver.version>
    	<mysql.version>8.0.11</mysql.version>
