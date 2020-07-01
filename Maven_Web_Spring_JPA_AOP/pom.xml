@@ -18,7 +18,7 @@
    	<hibernate.version>5.3.3.Final</hibernate.version>
    	<hibernate.validator>6.0.11.Final</hibernate.validator>
    	<c3p0.version>0.9.5.2</c3p0.version>
-   	<mysql.version>8.0.11</mysql.version>
+   	<mysql.version>8.0.16</mysql.version>
    	<tld.version>1.1.2</tld.version>
    	<jaxb.version>2.2.11</jaxb.version>
    	<javax.activation.version>1.1.1</javax.activation.version>
