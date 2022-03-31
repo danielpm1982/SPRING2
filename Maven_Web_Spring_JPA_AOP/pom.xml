@@ -13,7 +13,7 @@
     <javax.el.version>3.0.0</javax.el.version>
     <javax.servlet.jstl.version>1.2</javax.servlet.jstl.version>
     <javax.validation.version>2.0.1.Final</javax.validation.version>
-   	<spring.version>5.0.7.RELEASE</spring.version>
+   	<spring.version>5.3.18</spring.version>
    	<aspectJWeaver.version>1.9.1</aspectJWeaver.version>
    	<hibernate.version>5.3.3.Final</hibernate.version>
    	<hibernate.validator>6.0.11.Final</hibernate.validator>
